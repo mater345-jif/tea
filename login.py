@@ -12,7 +12,7 @@ root = tk.Tk()
 root.title("TEA Login")
 
 user_name = tk.StringVar()
-name_label = ttk.Label(root, text="Név: (Bereczki Máté)")
+name_label = ttk.Label(root, text="WiW ID: ")
 name_label.pack(side="left", padx=(20, 20))
 
 name_getter = ttk.Entry(root, width=15, textvariable=user_name)
