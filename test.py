@@ -9,7 +9,7 @@ except:
 
 
 def hello():
-    print(f"I'm decivied You, {entered_name.get() or '!'}")
+    print(f"I deceivied You, {entered_name.get() or '!'}")
 
 
 
@@ -23,7 +23,7 @@ name_label.pack(side="left", padx=(0, 10))
 
 name_getter = ttk.Entry(root, width=15, textvariable=entered_name)
 name_getter.pack(side="left")
-hello_button = ttk.Button(root, text="I'm not doing anythin", command=hello)
+hello_button = ttk.Button(root, text="I'm not doing anything", command=hello)
 hello_button.pack(side="left")
 
 exit_button = ttk.Button(root, text="Exit", command=root.destroy)
